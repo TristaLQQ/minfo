@@ -1,0 +1,47 @@
+@charset "utf-8";
+.container
+{position:relative;
+background:url(../img/bg2.png) no-repeat;
+height:450px;width:100%;
+animation:containerBg 1s linear 1;
+margin-top:3%;
+}
+.container span:not(#last){
+position:absolute;display:inline-block;width:6%;height:50px;
+color:white;
+border-radius:10px;text-align: center;
+line-height:50px;font-size:2vw;
+border-bottom:2px dashed #FF8C00;
+box-shadow:2px 2px 4px burlywood;
+font-size:3vw;display: none;
+}
+.container span:nth-of-type(1){left:8%; top:18%;}
+.container span:nth-of-type(2){left:13%;top:45%;}
+.container span:nth-of-type(3){left:21%; top:23%;}
+.container span:nth-of-type(4){left:26%;top:39%;}
+.container span:nth-of-type(5){left:40%;top:21%;}
+.container span:nth-of-type(6){left:40%;top:45%;}
+.container span:nth-of-type(7){
+position:absolute;
+width:35%;left:32%;
+top:65%;
+color:white;
+ display: none;
+font-size:2.5vw;
+}
+.line1{position:absolute;top:25%;left:3%;height:1px;border-bottom:2px dashed white;}
+.line2{position:absolute;top:33%;left:10%;width:1px;border-right:2px dashed white;}
+.line3{position:absolute;top:48%;left:10%;height:1px;border-bottom:2px dashed white;}
+.line4{position:absolute;top:48%;left:19%;height:1px;border-bottom:2px dashed white;}
+.line5{position:absolute;top:38%;left:23%;width:1px;border-right:2px dashed white;}
+.line6{position:absolute;top:30%;left:27%;height:1px;border-bottom:2px dashed white;}
+.line7{position:absolute;top:32%;left:29%;width:1px;border-right:2px dashed white;}
+.line8{position:absolute;top:49%;left:33%;height:1px;border-bottom:2px dashed white;}
+.line9{position:absolute;top:36%;left:42%;width:1px;border-right:2px dashed white;}
+.header{ width:100%;}
+.header h2{position:absolute; right:36%;bottom:-28%;font-size:4vw;}
+.line,.lline{position:absolute; right:15%;bottom:-28%;width:45%;height:2px;border-bottom:2px solid darkcyan; }
+.header .lline{bottom:-32%;right:5%;width:55%;border-color:darkorange; }
+.container a{position:absolute;right:22%;bottom:-46%;font-size:3vw;text-decoration:none;
+color: white;border:none;}
+.container a:hover{box-shadow:5px 4px 8px antiquewhite;border:2px solid whitesmoke;}

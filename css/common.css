@@ -1,0 +1,3 @@
+ @font-face {font-family:'myfont';src: url('../font/dongmanv1.0.ttf');}
+body{background:url(../img/bodybg.png) no-repeat;font-family:myfont,"华文行楷","Times New Roman";}
+body,div,p,h1,h2{margin:0;padding:0;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+.mark{position:relative;width:85%;height:650px;margin:20px auto;}
+.mark img{position:absolute;width:26%;left:32%;top:-5%;
+animation:nameimg 1s ease-in-out alternate infinite;transform-origin:center 0;}
+.mark p{
+position:absolute;bottom:20%;width:70%;padding-left:5%;line-height:30px;color:whitesmoke;font-size:1.8vw;}
+.mark .xline,.xline2{position:absolute;
+bottom:80px;width:96%;height:2px;background:darkcyan;animation:xnamemark 1s linear 1;}
+.mark .xline2{bottom:50px;}
+.mark .yline{position:absolute;right:8%;height:100%;width:2px;background: darkorange;
+animation:ynamemark 1s linear 1;}
+.mark a{position:absolute;bottom:15%;right:12%;width:8%;height:6%;
+text-align:center;background:darkgrey;
+border-radius:10px;text-decoration:none;color:white;font-size:2.3vw;}
+@keyframes xnamemark{from{width:0px;height:0;}to{width:96%;height:2px;}}
+@keyframes ynamemark{from{width:0px;height:0;}to{width:2px;height:100%;}}
+@keyframes nameimg{0%{transform:rotate(20deg);	}50%{transform:rotate(-20deg);}100%{transform:rotate(0deg);}}
